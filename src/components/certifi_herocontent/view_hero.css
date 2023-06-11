@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero_view > img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+.hero_view > p {
+  color: white;
+}
+.hero_view {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.411);
+  font-size: 21px;
+
+  padding: 21px;
+  align-items: center;
+  gap: 22px;
+  height: 500px;
+}
+.main_hero {
+  background-image: url(../../assets/images/port.img.jpg);
+  background-size: 100% 100%;
+}

@@ -1,0 +1,25 @@
+.main_portproject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.main_portproject > h1 {
+  color: black;
+}
+.projects_name {
+  display: flex;
+  gap: 80px;
+}
+.projects_name > h2 {
+  color: gray;
+}
+.media_lander > a img {
+  width: 350px;
+  height: 300px;
+}
+.media_header > a img {
+  width: 350px;
+  height: 300px;
+}

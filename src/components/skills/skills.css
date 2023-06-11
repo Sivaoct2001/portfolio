@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.html {
+  width: 400px;
+}
+.html_bar {
+  width: 100%;
+  background-color: darkgrey;
+}
+.html_range {
+  width: 90%;
+  background-color: lightblue;
+}
+.css {
+  width: 400px;
+}
+.css_bar {
+  width: 100%;
+  background-color: darkgray;
+}
+.css_range {
+  width: 85%;
+  background-color: lightblue;
+}
+.react {
+  width: 400px;
+}
+.react_bar {
+  width: 100%;
+  background-color: darkgray;
+}
+.react_range {
+  width: 60%;
+  background-color: lightblue;
+}
+.knowledge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+.skills_main {
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.884);
+}
+.skills_main > h1 {
+  color: black;
+}
+.knowledge > h3 {
+  color: lightblue;
+}
